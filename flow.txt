@@ -1,0 +1,28 @@
+freelance_job_ai/
+│
+├── app.py                  # Streamlit main app (START HERE)
+│
+├── scraping/
+│   ├── __init__.py
+│   ├── scraper.py          # Python + BeautifulSoup code
+│
+├── processing/
+│   ├── __init__.py
+│   ├── cleaner.py          # Remove noise & non-freelance jobs
+│   ├── deduplicator.py     # Duplicate detection logic
+│   ├── skill_extractor.py  # Extract skills from job text
+│   ├── matcher.py          # Skill matching & ranking
+│
+├── data/
+│   ├── raw_jobs.json       # Scraped raw jobs
+│   ├── clean_jobs.json     # Cleaned & unique jobs
+│   ├── final_jobs.json     # Ranked jobs for UI
+│
+├── utils/
+│   ├── __init__.py
+│   ├── constants.py        # Skill list, keywords
+│   ├── helpers.py          # Common helper functions
+│
+├── requirements.txt        # Libraries
+│
+└── README.md               # Project explanation

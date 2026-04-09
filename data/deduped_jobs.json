@@ -198,26 +198,6 @@
         "scraped_at": "2026-04-08T19:11:44.644461"
     },
     {
-        "id": "nomads--2019086784050433903",
-        "title": "Senior Fullstack Developer (Python)",
-        "company": "Proxify",
-        "description": [
-            "fastapi",
-            "django",
-            "javascript",
-            "python",
-            "typescript"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://career.proxify.io/apply?utm_source=workingnomads&utm_medium=job_posting&utm_campaign=senior_fullstack_python",
-        "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644469"
-    },
-    {
         "id": "nomads--1963138578339686047",
         "title": "Senior Python AI Engineer",
         "company": "Proxify",
@@ -236,26 +216,6 @@
         "apply_link": "https://career.proxify.io/apply?utm_source=workingnomads&utm_medium=job_posting&utm_campaign=senior_ai_engineer",
         "source": "working_nomads",
         "scraped_at": "2026-04-08T19:11:44.644477"
-    },
-    {
-        "id": "nomads--6324279265666210596",
-        "title": "Senior MS Power Platform Developer",
-        "company": "Proxify",
-        "description": [
-            "azure",
-            "javascript",
-            "sharepoint",
-            "power bi",
-            "python"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://career.proxify.io/apply?utm_source=workingnomads&utm_medium=job_posting&utm_campaign=senior_power_platform",
-        "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644485"
     },
     {
         "id": "nomads--7226946711218360498",
@@ -569,24 +529,6 @@
         "scraped_at": "2026-04-08T19:11:44.644631"
     },
     {
-        "id": "nomads-5520792933021856437",
-        "title": "Legal Intern [Summer Internship]",
-        "company": "Netwrix",
-        "description": [
-            "drafting",
-            "corporate",
-            "compliance"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://ats.rippling.com/en-GB/netwrix-corporation/jobs/105847e4-bbdf-45eb-b68c-9c73ecccd948",
-        "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644638"
-    },
-    {
         "id": "nomads--8897714304633555737",
         "title": "Senior Platform Engineer",
         "company": "Upwork",
@@ -781,26 +723,6 @@
         "scraped_at": "2026-04-08T19:11:44.644725"
     },
     {
-        "id": "nomads--1213191292945411451",
-        "title": "Science Content Creator",
-        "company": "Khan Academy",
-        "description": [
-            "science",
-            "physics",
-            "teaching",
-            "biology",
-            "user experience"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://job-boards.greenhouse.io/khanacademy/jobs/7685573",
-        "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644733"
-    },
-    {
         "id": "nomads--7682972549088303656",
         "title": "Senior Recruiter",
         "company": "VRChat",
@@ -991,26 +913,6 @@
         "apply_link": "https://jobs.lever.co/ro/07616f82-d557-4f11-8df9-40b5bc9cec9a",
         "source": "working_nomads",
         "scraped_at": "2026-04-08T19:11:44.644812"
-    },
-    {
-        "id": "nomads--5711574280740554597",
-        "title": "CRM Team Lead",
-        "company": "Massive Rocket",
-        "description": [
-            "sql",
-            "crm",
-            "leadership",
-            "customer experience",
-            "cloud"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://jobs.lever.co/massive-rocket/db5c23ba-169a-44b2-b97f-f0d559779699",
-        "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644820"
     },
     {
         "id": "nomads--1454846581871449586",
@@ -1855,44 +1757,6 @@
         "scraped_at": "2026-04-08T19:11:44.645171"
     },
     {
-        "id": "nomads--6376400741414455413",
-        "title": "Consulting Psychologist/Neurologist/Psychiatrist - Korean Fluency",
-        "company": "Cogstate",
-        "description": [
-            "neuroscience",
-            "psychology",
-            "monitoring",
-            "clinical research"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://cogstate.applytojob.com/apply/d2DAEFrswI/Consulting-PsychologistNeurologistPsychiatrist-Korean-Fluency",
-        "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645180"
-    },
-    {
-        "id": "nomads-2016452005720491753",
-        "title": "Consulting Psychologist/Neurologist/Psychiatrist - Slovene Fluency",
-        "company": "Cogstate",
-        "description": [
-            "neuroscience",
-            "psychology",
-            "monitoring",
-            "clinical research"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://cogstate.applytojob.com/apply/43Ef37bC1S/Consulting-PsychologistNeurologistPsychiatrist-Slovene-Fluency",
-        "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645189"
-    },
-    {
         "id": "nomads-7043270384913360713",
         "title": "Senior Total Rewards Consultant",
         "company": "Typeform",
@@ -1968,25 +1832,6 @@
         "scraped_at": "2026-04-05T05:24:06.755786"
     },
     {
-        "id": "wwr-contra",
-        "title": "Product Designer | Contra Labs Network",
-        "company": "Contra",
-        "description": [
-            "contract",
-            "featured",
-            "anywhere in the world",
-            "top 100"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://weworkremotely.com/company/contra",
-        "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.755857"
-    },
-    {
         "id": "wwr-ae-virtual-class-s-a",
         "title": "Native language editors",
         "company": "AE Virtual Class S.A",
@@ -2003,25 +1848,6 @@
         "apply_link": "https://weworkremotely.com/company/ae-virtual-class-s-a",
         "source": "wwr",
         "scraped_at": "2026-04-05T05:24:06.755928"
-    },
-    {
-        "id": "wwr-contra",
-        "title": "Brand Designer | Contra Labs Network",
-        "company": "Contra",
-        "description": [
-            "contract",
-            "featured",
-            "anywhere in the world",
-            "top 100"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://weworkremotely.com/company/contra",
-        "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.755997"
     },
     {
         "id": "wwr-prowritersites",

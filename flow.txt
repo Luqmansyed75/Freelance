@@ -8,15 +8,21 @@ freelance_job_ai/
 │
 ├── processing/
 │   ├── __init__.py
-│   ├── cleaner.py          # Remove noise & non-freelance jobs
-│   ├── deduplicator.py     # Duplicate detection logic
-│   ├── skill_extractor.py  # Extract skills from job text
-│   ├── matcher.py          # Skill matching & ranking
+│   ├── cleaner.py          # Step 1: Remove noise & non-freelance jobs
+│   ├── deduplicator.py     # Step 2: Duplicate detection logic
+│   ├── enricher.py         # Step 3: AI summaries (Gemini) + salary extraction
+│   ├── skill_extractor.py  # Step 4: Extract skills from job text
+│   ├── matcher.py          # Skill matching & ranking (post-pipeline)
+│
+├── pipeline.py             # Runs steps 1-4 in order (merges all sources)
 │
 ├── data/
-│   ├── raw_jobs.json       # Scraped raw jobs
-│   ├── clean_jobs.json     # Cleaned & unique jobs
-│   ├── final_jobs.json     # Ranked jobs for UI
+│   ├── nomad.json          # Raw scraped jobs from Working Nomads (input)
+│   ├── wwr.json            # Raw scraped jobs from We Work Remotely (input)
+│   ├── clean_jobs.json     # After Step 1: cleaned (both sources merged)
+│   ├── deduped_jobs.json   # After Step 2: deduplicated
+│   ├── enriched_jobs.json  # After Step 3: AI summaries + salary
+│   ├── final_jobs.json     # After Step 4: with skills → ready for UI
 │
 ├── utils/
 │   ├── __init__.py

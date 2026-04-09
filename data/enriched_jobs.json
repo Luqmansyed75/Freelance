@@ -12,11 +12,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://chloedigital.typeform.com/to/uzEnUzBS",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644337"
+        "scraped_at": "2026-04-08T19:11:44.644337",
+        "ai_summary": "Fractional Growth Marketer at Coreli. Tags: partnerships, social media, strategy, product marketing."
     },
     {
         "id": "nomads-5522580931975199627",
@@ -33,11 +34,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://career.proxify.io/apply?utm_source=workingnomads&utm_medium=job_posting&utm_campaign=senior_sharepoint",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644388"
+        "scraped_at": "2026-04-08T19:11:44.644388",
+        "ai_summary": "Senior Sharepoint Developer at Proxify. Tags: azure, dotnet, css, javascript, sharepoint, typescript."
     },
     {
         "id": "nomads-6542825858993103535",
@@ -53,11 +55,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://career.proxify.io/apply?utm_source=workingnomads&utm_medium=job_posting&utm_campaign=senior_golang",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644401"
+        "scraped_at": "2026-04-08T19:11:44.644401",
+        "ai_summary": "Senior Golang Developer at Proxify. Tags: golang, devops, english, postgresql, cloud."
     },
     {
         "id": "nomads--5392076717260037769",
@@ -73,11 +76,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://career.proxify.io/apply?utm_source=workingnomads&utm_medium=job_posting&utm_campaign=senior_frontend",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644411"
+        "scraped_at": "2026-04-08T19:11:44.644411",
+        "ai_summary": "Senior Frontend Developer (React.js / Next.js) at Proxify. Tags: testing, nextjs, cypress, user experience, typescript."
     },
     {
         "id": "nomads--6693941779390714571",
@@ -94,11 +98,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://career.proxify.io/apply?utm_source=workingnomads&utm_medium=job_posting&utm_campaign=senior_fullstack",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644421"
+        "scraped_at": "2026-04-08T19:11:44.644421",
+        "ai_summary": "Senior Fullstack Developer (React.js / Node.js) at Proxify. Tags: react, sql, mongodb, nodejs, english, architecture."
     },
     {
         "id": "nomads-4035121084938321167",
@@ -114,11 +119,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://career.proxify.io/apply?utm_source=workingnomads&utm_medium=job_posting&utm_campaign=senior_data_engineer_python",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644430"
+        "scraped_at": "2026-04-08T19:11:44.644430",
+        "ai_summary": "Senior Data Engineer (Python) at Proxify. Tags: quality, sql, data engineering, python, cloud."
     },
     {
         "id": "nomads--3713622395273204645",
@@ -133,11 +139,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://career.proxify.io/apply?utm_source=workingnomads&utm_medium=job_posting&utm_campaign=senior_devops_gcp",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644438"
+        "scraped_at": "2026-04-08T19:11:44.644438",
+        "ai_summary": "Senior DevOps Engineer (GCP) at Proxify. Tags: gcp, devops, architecture, kubernetes."
     },
     {
         "id": "nomads--7681882706215161643",
@@ -153,11 +160,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://career.proxify.io/apply?utm_source=workingnomads&utm_medium=job_posting&utm_campaign=senior_backend_nodejs",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644446"
+        "scraped_at": "2026-04-08T19:11:44.644446",
+        "ai_summary": "Senior Backend Developer (Node.js / Nest.js) at Proxify. Tags: graphql, nodejs, javascript, back-end, typescript."
     },
     {
         "id": "nomads--1989960803148053851",
@@ -173,11 +181,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://career.proxify.io/apply?utm_source=workingnomads&utm_medium=job_posting&utm_campaign=senior_backend_python",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644454"
+        "scraped_at": "2026-04-08T19:11:44.644454",
+        "ai_summary": "Senior Backend Developer (Python) at Proxify. Tags: aws, sql, django, docker, python."
     },
     {
         "id": "nomads--9001937901644172841",
@@ -191,31 +200,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://career.proxify.io/apply?utm_source=workingnomads&utm_medium=job_posting&utm_campaign=senior_ms_powerbi",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644461"
-    },
-    {
-        "id": "nomads--2019086784050433903",
-        "title": "Senior Fullstack Developer (Python)",
-        "company": "Proxify",
-        "description": [
-            "fastapi",
-            "django",
-            "javascript",
-            "python",
-            "typescript"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://career.proxify.io/apply?utm_source=workingnomads&utm_medium=job_posting&utm_campaign=senior_fullstack_python",
-        "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644469"
+        "scraped_at": "2026-04-08T19:11:44.644461",
+        "ai_summary": "Senior MS Power BI Developer at Proxify. Tags: sap, power bi, sql."
     },
     {
         "id": "nomads--1963138578339686047",
@@ -231,31 +221,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://career.proxify.io/apply?utm_source=workingnomads&utm_medium=job_posting&utm_campaign=senior_ai_engineer",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644477"
-    },
-    {
-        "id": "nomads--6324279265666210596",
-        "title": "Senior MS Power Platform Developer",
-        "company": "Proxify",
-        "description": [
-            "azure",
-            "javascript",
-            "sharepoint",
-            "power bi",
-            "python"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://career.proxify.io/apply?utm_source=workingnomads&utm_medium=job_posting&utm_campaign=senior_power_platform",
-        "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644485"
+        "scraped_at": "2026-04-08T19:11:44.644477",
+        "ai_summary": "Senior Python AI Engineer at Proxify. Tags: flask, django, prompt engineering, python, engineer."
     },
     {
         "id": "nomads--7226946711218360498",
@@ -271,11 +242,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://career.proxify.io/apply?utm_source=workingnomads&utm_medium=job_posting&utm_campaign=senior_salesforce",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644492"
+        "scraped_at": "2026-04-08T19:11:44.644492",
+        "ai_summary": "Senior Salesforce Developer at Proxify. Tags: communication, english, automation, salesforce, architecture."
     },
     {
         "id": "nomads-2442560645606059537",
@@ -291,11 +263,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://career.proxify.io/apply?utm_source=workingnomads&utm_medium=job_posting&utm_campaign=senior_adobe_commerce",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644500"
+        "scraped_at": "2026-04-08T19:11:44.644500",
+        "ai_summary": "Senior Adobe Commerce Developer (Magento) at Proxify. Tags: mysql, graphql, elasticsearch, magento, php."
     },
     {
         "id": "nomads--992464780557082962",
@@ -312,11 +285,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://career.proxify.io/apply?utm_source=workingnomads&utm_medium=job_posting&utm_campaign=senior_ai_engineer_llm",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644511"
+        "scraped_at": "2026-04-08T19:11:44.644511",
+        "ai_summary": "Senior AI Engineer (LLM) at Proxify. Tags: aws, llm, sql, prompt engineering, architecture, python."
     },
     {
         "id": "nomads--5030013042856888778",
@@ -331,11 +305,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://www.markervideo.com/api/auth/signup?utm_source=WN&utm_medium=Jobboard&utm_id=WNMar26",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644519"
+        "scraped_at": "2026-04-08T19:11:44.644519",
+        "ai_summary": "Video Creator at Marker Video. Tags: social media, english, creative, editing."
     },
     {
         "id": "nomads--8249040073215652711",
@@ -350,11 +325,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://www.workingnomads.com/jobs/full-stack-developer-electe-srl-1477728",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644528"
+        "scraped_at": "2026-04-08T19:11:44.644528",
+        "ai_summary": "Full-Stack Developer at ELECTE S.R.L.. Tags: sql, python, typescript, postgresql."
     },
     {
         "id": "nomads-6343403482645521324",
@@ -369,11 +345,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.eu.greenhouse.io/clinchoice/jobs/4834179101",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644536"
+        "scraped_at": "2026-04-08T19:11:44.644536",
+        "ai_summary": "Principal Biostatistician Consultant (Oncology) at ClinChoice. Tags: statistics, medical, sas, data management."
     },
     {
         "id": "nomads-3503171455528461408",
@@ -388,11 +365,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/atmosera/00149ad1-5b40-4474-bc61-fc44f26b9a05",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644551"
+        "scraped_at": "2026-04-08T19:11:44.644551",
+        "ai_summary": "Senior Consultant - Data & AI (Microsoft Fabric) at Atmosera. Tags: power bi, azure, analytics, reporting."
     },
     {
         "id": "nomads--6242652494323806275",
@@ -408,11 +386,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/trustarc/23868b4d-d531-4766-acfb-66420155618e",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644563"
+        "scraped_at": "2026-04-08T19:11:44.644563",
+        "ai_summary": "SR Product Marketing Manager at TrustArc. Tags: project management, saas, social media, marketing manager, product marketing."
     },
     {
         "id": "nomads--4243134732988823394",
@@ -426,11 +405,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.greenhouse.io/scribeconcepts/jobs/4041078007",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644572"
+        "scraped_at": "2026-04-08T19:11:44.644572",
+        "ai_summary": "Curriculum Content Developer at ScribeConcepts. Tags: teaching, curriculum, curriculum development."
     },
     {
         "id": "nomads--1990613371915963955",
@@ -443,11 +423,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.eu.greenhouse.io/clinchoice/jobs/4796039101",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644581"
+        "scraped_at": "2026-04-08T19:11:44.644581",
+        "ai_summary": "Regulatory Affairs Specialist \u2013 Consultant at ClinChoice. Tags: compliance, regulatory affairs."
     },
     {
         "id": "nomads--6195147948557121670",
@@ -463,11 +444,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.greenhouse.io/upwork/jobs/7691426003",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644591"
+        "scraped_at": "2026-04-08T19:11:44.644591",
+        "ai_summary": "Senior Product Manager at Upwork. Tags: strategy, analytics, ab testing, product management, customer feedback."
     },
     {
         "id": "nomads--7016237439498864978",
@@ -483,11 +465,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.greenhouse.io/upwork/jobs/7691532003",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644599"
+        "scraped_at": "2026-04-08T19:11:44.644599",
+        "ai_summary": "Fractional Growth Consultant at Upwork. Tags: performance marketing, sql, reporting, analytics, customer acquisition."
     },
     {
         "id": "nomads--5873949267846101014",
@@ -503,11 +486,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/atmosera/5e3bd427-95d2-4ed2-9756-090753cd6340",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644607"
+        "scraped_at": "2026-04-08T19:11:44.644607",
+        "ai_summary": "Project Coordinator at Atmosera. Tags: communication, coordinator, documentation, reporting, project coordinator."
     },
     {
         "id": "nomads--9050175160765029033",
@@ -522,11 +506,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://ats.rippling.com/en-GB/netwrix-corporation/jobs/2c232cdf-e2c9-449d-aee0-dcc4792a5c32",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644615"
+        "scraped_at": "2026-04-08T19:11:44.644615",
+        "ai_summary": "Lead Generation Intern [Summer Internship] at Netwrix. Tags: lead generation, communication, bdr, sdr."
     },
     {
         "id": "nomads-832742632523463233",
@@ -542,11 +527,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://ats.rippling.com/en-GB/netwrix-corporation/jobs/6f52261e-59d8-4ff5-ab2b-26f4f7dc415f",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644623"
+        "scraped_at": "2026-04-08T19:11:44.644623",
+        "ai_summary": "Internal Communications Intern [Summer Internship] at Netwrix. Tags: content creation, editing, public relations, internal communications, journalism."
     },
     {
         "id": "nomads--5473402528542758720",
@@ -562,29 +548,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://ats.rippling.com/en-GB/netwrix-corporation/jobs/85977c70-db20-47e4-a74b-97489462a087",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644631"
-    },
-    {
-        "id": "nomads-5520792933021856437",
-        "title": "Legal Intern [Summer Internship]",
-        "company": "Netwrix",
-        "description": [
-            "drafting",
-            "corporate",
-            "compliance"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://ats.rippling.com/en-GB/netwrix-corporation/jobs/105847e4-bbdf-45eb-b68c-9c73ecccd948",
-        "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644638"
+        "scraped_at": "2026-04-08T19:11:44.644631",
+        "ai_summary": "Customer Outreach Intern [Summer Internship] at Netwrix. Tags: communication, strategy, creative, saas, business development."
     },
     {
         "id": "nomads--8897714304633555737",
@@ -600,11 +569,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.greenhouse.io/upwork/jobs/7648945003",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644648"
+        "scraped_at": "2026-04-08T19:11:44.644648",
+        "ai_summary": "Senior Platform Engineer at Upwork. Tags: aws, devops, python, platform engineer, engineer."
     },
     {
         "id": "nomads-39705354840435395",
@@ -620,11 +590,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "http://fusionspan.applytojob.com/apply/r3RenfImV4/Salesforce-Technical-Architect",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644656"
+        "scraped_at": "2026-04-08T19:11:44.644656",
+        "ai_summary": "Salesforce Technical Architect at fusionSpan. Tags: jira, documentation, salesforce, b2b, agile."
     },
     {
         "id": "nomads-949450769407272946",
@@ -640,11 +611,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/olo/7d29f1dd-4778-46af-b460-b8958d908d50",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644664"
+        "scraped_at": "2026-04-08T19:11:44.644664",
+        "ai_summary": "Technical Recruiter at Olo. Tags: technical recruiter, saas, talent acquisition, recruiting, sourcing."
     },
     {
         "id": "nomads-3920235113811237510",
@@ -660,11 +632,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://siegemedia.applytojob.com/apply/YgqHAfwmy8/Bilingual-Content-Editor-EnglishJapanese",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644672"
+        "scraped_at": "2026-04-08T19:11:44.644672",
+        "ai_summary": "Bilingual Content Editor (English/Japanese) at Siege Media. Tags: seo, editing, publishing, content editor, journalism."
     },
     {
         "id": "nomads--755870584072301479",
@@ -676,11 +649,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://flightcx01.applytojob.com/apply/kM7LPfbOXn/Seasonal-Customer-Support-Representative-Remote",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644679"
+        "scraped_at": "2026-04-08T19:11:44.644679",
+        "ai_summary": "Seasonal Customer Support Representative at Flight CX. Tags: customer experience."
     },
     {
         "id": "nomads--5433525023722990050",
@@ -696,11 +670,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://bitovi.applytojob.com/apply/vkfQLYyYPe/Technical-Product-Owner-USCanada",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644688"
+        "scraped_at": "2026-04-08T19:11:44.644688",
+        "ai_summary": "Technical Product Owner at Bitovi. Tags: program management, scrum master, product owner, leadership, agile."
     },
     {
         "id": "nomads--4105288216569802408",
@@ -716,11 +691,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.smartrecruiters.com/Canva/6000000000915954-seo-content-specialist-thailand-12-month-contract-",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644696"
+        "scraped_at": "2026-04-08T19:11:44.644696",
+        "ai_summary": "SEO Content Specialist at Canva. Tags: content marketing, seo, editing, content writing, web analytics."
     },
     {
         "id": "nomads--271394310243459015",
@@ -736,11 +712,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.smartrecruiters.com/Canva/6000000000915959-seo-outreacher-thailand-12-month-contract-",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644706"
+        "scraped_at": "2026-04-08T19:11:44.644706",
+        "ai_summary": "SEO Outreacher at Canva. Tags: content marketing, seo, communication, content strategy, partnerships."
     },
     {
         "id": "nomads--8995942753623489231",
@@ -754,11 +731,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://raketech.recruitee.com/o/content-writers-freelancers",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644715"
+        "scraped_at": "2026-04-08T19:11:44.644715",
+        "ai_summary": "Content Writers at Raketech Group Limited. Tags: seo, publishing, content writing."
     },
     {
         "id": "nomads-1407163681797734478",
@@ -774,31 +752,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.greenhouse.io/khanacademy/jobs/7685566",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644725"
-    },
-    {
-        "id": "nomads--1213191292945411451",
-        "title": "Science Content Creator",
-        "company": "Khan Academy",
-        "description": [
-            "science",
-            "physics",
-            "teaching",
-            "biology",
-            "user experience"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://job-boards.greenhouse.io/khanacademy/jobs/7685573",
-        "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644733"
+        "scraped_at": "2026-04-08T19:11:44.644725",
+        "ai_summary": "Science Content Reviewer at Khan Academy. Tags: science, communication, physics, teaching, biology."
     },
     {
         "id": "nomads--7682972549088303656",
@@ -812,11 +771,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/vrchat/4c347660-19c9-403e-8801-16c3bc8cedc8",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644740"
+        "scraped_at": "2026-04-08T19:11:44.644740",
+        "ai_summary": "Senior Recruiter at VRChat. Tags: communication, recruiting, sourcing."
     },
     {
         "id": "nomads-3574746978429149375",
@@ -832,11 +792,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/deputy/3e8de105-be9d-4982-aac8-c444a0ca2c88",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644748"
+        "scraped_at": "2026-04-08T19:11:44.644748",
+        "ai_summary": "Account Manager at Deputy. Tags: saas, account manager, b2b saas, salesforce, b2b."
     },
     {
         "id": "nomads-7171550794983148233",
@@ -852,11 +813,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/collabora/1d5f2ec8-ddfd-45ba-b286-95549f54d0bc",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644755"
+        "scraped_at": "2026-04-08T19:11:44.644755",
+        "ai_summary": "People Operations Administrator at Collabora. Tags: payroll, communication, people operations, operations, hris."
     },
     {
         "id": "nomads--3902650048774927374",
@@ -872,11 +834,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/everlywell/17d75d37-c3c3-444d-86be-d8ed228328e2",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644763"
+        "scraped_at": "2026-04-08T19:11:44.644763",
+        "ai_summary": "Nurse Educator & Quality Assurance Specialist at Everlywell. Tags: communication, documentation, qa, leadership, operations."
     },
     {
         "id": "nomads--794112887596977587",
@@ -892,11 +855,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/massive-rocket/599fb36c-3d33-4486-87c3-e023ff4864bf",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644771"
+        "scraped_at": "2026-04-08T19:11:44.644771",
+        "ai_summary": "Account Manager at Massive Rocket. Tags: communication, project management, partnerships, account manager, analytics."
     },
     {
         "id": "nomads-279522269880120877",
@@ -912,11 +876,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.eu.lever.co/olx/a91429f1-da1f-447e-ae99-f853c4091c7a",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644778"
+        "scraped_at": "2026-04-08T19:11:44.644778",
+        "ai_summary": "Senior Data Analyst at OLX. Tags: aws, sql, data analyst, analyst, python."
     },
     {
         "id": "nomads--6583550282843484575",
@@ -932,11 +897,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/massive-rocket/8b32190a-2fbf-494c-81fe-275ba01e6d23",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644790"
+        "scraped_at": "2026-04-08T19:11:44.644790",
+        "ai_summary": "Data Team Lead at Massive Rocket. Tags: aws, azure, machine learning, devops, architecture."
     },
     {
         "id": "nomads-1249610352566625302",
@@ -949,11 +915,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/curai/2370615f-21b5-443e-9bc1-924654d7152b",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644798"
+        "scraped_at": "2026-04-08T19:11:44.644798",
+        "ai_summary": "Nurse Practitioner - Virtual Primary Care (15+ licenses) at Curai. Tags: medical, communication."
     },
     {
         "id": "nomads-6968627418665481044",
@@ -969,11 +936,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/contentsquare/818d855b-d777-4dd2-a99d-e1d6dc68619b",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644805"
+        "scraped_at": "2026-04-08T19:11:44.644805",
+        "ai_summary": "Demand Generation Marketing Intern at Contentsquare. Tags: copywriting, editing, html, saas, email marketing."
     },
     {
         "id": "nomads--3694900400427500260",
@@ -986,31 +954,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/ro/07616f82-d557-4f11-8df9-40b5bc9cec9a",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644812"
-    },
-    {
-        "id": "nomads--5711574280740554597",
-        "title": "CRM Team Lead",
-        "company": "Massive Rocket",
-        "description": [
-            "sql",
-            "crm",
-            "leadership",
-            "customer experience",
-            "cloud"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://jobs.lever.co/massive-rocket/db5c23ba-169a-44b2-b97f-f0d559779699",
-        "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644820"
+        "scraped_at": "2026-04-08T19:11:44.644812",
+        "ai_summary": "Medical Content Reviewer at Ro. Tags: medical, editing."
     },
     {
         "id": "nomads--1454846581871449586",
@@ -1026,11 +975,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://ats.rippling.com/en-GB/sales-hub-careers/jobs/85450128-1465-4594-8f11-a2dea0132006",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644830"
+        "scraped_at": "2026-04-08T19:11:44.644830",
+        "ai_summary": "Senior Technical Lead at Sales Hub. Tags: aws, azure, project management, machine learning, python."
     },
     {
         "id": "nomads--7802424459818113426",
@@ -1045,11 +995,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.greenhouse.io/khanacademy/jobs/7358482",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644837"
+        "scraped_at": "2026-04-08T19:11:44.644837",
+        "ai_summary": "Math Video Creator (Grades 11-12) at Khan Academy. Tags: teaching, curriculum, math, school."
     },
     {
         "id": "nomads-3321007327490216469",
@@ -1062,11 +1013,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/curai/98da8b84-b500-4cf3-8f4e-11bff1cfc0e1",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644844"
+        "scraped_at": "2026-04-08T19:11:44.644844",
+        "ai_summary": "Physician - Virtual Primary Care (15+ licenses) at Curai. Tags: medical, communication."
     },
     {
         "id": "nomads-592762412837803945",
@@ -1082,11 +1034,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/lodgify/78c28aab-cc54-4e53-b45f-44be46fbbfc5",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644852"
+        "scraped_at": "2026-04-08T19:11:44.644852",
+        "ai_summary": "Senior Data Engineer at Lodgify. Tags: aws, azure, sql, python, engineer."
     },
     {
         "id": "nomads-7822891675860336715",
@@ -1101,11 +1054,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/ro/4effc32e-b652-495c-817a-64bb19b72d6f",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644861"
+        "scraped_at": "2026-04-08T19:11:44.644861",
+        "ai_summary": "Virtual Nurse Practitioner at Ro. Tags: medical, communication, documentation, telehealth."
     },
     {
         "id": "nomads-1298494336295626435",
@@ -1121,11 +1075,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://pomelohq.applytojob.com/apply/4fqhMvbAsu/Freelance-Recruiter-B2B-Agency",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644869"
+        "scraped_at": "2026-04-08T19:11:44.644869",
+        "ai_summary": "Recruiter (B2B Agency) at Pomelo. Tags: staffing, leadership, b2b, recruiting, sourcing."
     },
     {
         "id": "nomads-2832026032215509177",
@@ -1138,11 +1093,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/Huckleberrylabs/d5af1bf4-5ae6-49da-bde5-7ca0f1f9b3e8",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644876"
+        "scraped_at": "2026-04-08T19:11:44.644876",
+        "ai_summary": "Customer Success Associate at Huckleberry Labs. Tags: communication, documentation."
     },
     {
         "id": "nomads-9156399684072815075",
@@ -1154,11 +1110,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/massive-rocket/a49eeace-06c7-4a63-bc22-e8c82c10f703",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644884"
+        "scraped_at": "2026-04-08T19:11:44.644884",
+        "ai_summary": "CRM Developer at Massive Rocket. Tags: crm."
     },
     {
         "id": "nomads-6754592693037620510",
@@ -1171,11 +1128,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/ro/f8207a30-991c-43b4-a356-409357323ebf",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644891"
+        "scraped_at": "2026-04-08T19:11:44.644891",
+        "ai_summary": "Virtual Physician at Ro. Tags: medical, telehealth."
     },
     {
         "id": "nomads-5938069117245432300",
@@ -1190,11 +1148,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://ats.rippling.com/fresh-careers/jobs/073c3ce9-0379-408d-ad85-00fa94e52a04",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644898"
+        "scraped_at": "2026-04-08T19:11:44.644898",
+        "ai_summary": "Medical Director at Fresh Clinics. Tags: insurance, medical, compliance, director."
     },
     {
         "id": "nomads--3623083181442242541",
@@ -1210,11 +1169,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/massive-rocket/c841e5f7-4150-4e63-91b7-bd23df363fac",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644905"
+        "scraped_at": "2026-04-08T19:11:44.644905",
+        "ai_summary": "Global Account Director at Massive Rocket. Tags: digital marketing, saas, account manager, director, cloud."
     },
     {
         "id": "nomads--2395582210222054881",
@@ -1229,11 +1189,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.eu.lever.co/sportalliance/e4ba1cba-d223-4ffd-a16e-890f64943c2d",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644912"
+        "scraped_at": "2026-04-08T19:11:44.644912",
+        "ai_summary": "Senior Product Designer at Sport Alliance GmbH. Tags: product design, medical, saas, b2b."
     },
     {
         "id": "nomads-4690722230129561924",
@@ -1249,11 +1210,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.ashbyhq.com/kraken.com/c5ff205b-8039-415c-a384-a3d47ba00387",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644922"
+        "scraped_at": "2026-04-08T19:11:44.644922",
+        "ai_summary": "Crypto Funding Support Specialist at Kraken. Tags: documentation, customer service, compliance, security, blockchain."
     },
     {
         "id": "nomads-4601049277566827455",
@@ -1269,11 +1231,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.greenhouse.io/educate/jobs/7677211",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644932"
+        "scraped_at": "2026-04-08T19:11:44.644932",
+        "ai_summary": "Global Systems and Financial Operations Manager at Educate!. Tags: audit, operations management, automation, leadership, operations."
     },
     {
         "id": "nomads--2633844087322310292",
@@ -1289,11 +1252,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://aandkrobotics.applytojob.com/apply/9Y9xGtOMHj/Fractional-Talent-People-Operations-Lead",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644940"
+        "scraped_at": "2026-04-08T19:11:44.644940",
+        "ai_summary": "Fractional Talent & People Operations Lead at A&K Robotics. Tags: project management, people operations, operations, recruiting, sourcing."
     },
     {
         "id": "nomads-8151202118997748110",
@@ -1309,11 +1273,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://tribalvision.applytojob.com/apply/fvvK5o6hlH/Paid-Media-Contractor",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644948"
+        "scraped_at": "2026-04-08T19:11:44.644948",
+        "ai_summary": "Paid Media at TribalVision. Tags: ppc, paid social, digital marketing, advertising, social media."
     },
     {
         "id": "nomads--5782314606233118669",
@@ -1329,11 +1294,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://hellomockingbird.applytojob.com/apply/VKYKiqfh0k/Product-Engineering-Contractor",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644955"
+        "scraped_at": "2026-04-08T19:11:44.644955",
+        "ai_summary": "Product Engineering at Mockingbird. Tags: communication, documentation, autocad, cad, product design."
     },
     {
         "id": "nomads-9100344734472620321",
@@ -1349,11 +1315,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://tribalvision.applytojob.com/apply/kL4Ewq1BHZ/Design-Contractor-UX-Web-Video-Photography-Etc",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644965"
+        "scraped_at": "2026-04-08T19:11:44.644965",
+        "ai_summary": "Design Contractor (UX, Web, Video, Photography etc.) at TribalVision. Tags: animation, web design, social media, graphic design, user experience."
     },
     {
         "id": "nomads-5390703428426660400",
@@ -1369,11 +1336,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://tribalvision.applytojob.com/apply/44C4dVSa42/Digital-Marketing-Contractor",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644973"
+        "scraped_at": "2026-04-08T19:11:44.644973",
+        "ai_summary": "Digital Marketing at TribalVision. Tags: content marketing, seo, digital marketing, email marketing, lead generation."
     },
     {
         "id": "nomads-7271605924113854666",
@@ -1389,11 +1357,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/tryjeeves/742aff57-e319-45d0-8ac9-7eb80c35f1fa",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644980"
+        "scraped_at": "2026-04-08T19:11:44.644980",
+        "ai_summary": "Software Engineer at Jeeves. Tags: software engineering, front end, nodejs, javascript, engineer."
     },
     {
         "id": "nomads-4581454262264208765",
@@ -1407,11 +1376,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.smartrecruiters.com/epochgames/744000066066830-lead-animator",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644991"
+        "scraped_at": "2026-04-08T19:11:44.644991",
+        "ai_summary": "Lead Animator at Epoch Games. Tags: unreal engine, game development, animation."
     },
     {
         "id": "nomads-7380048668401916648",
@@ -1427,11 +1397,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.greenhouse.io/xapo61/jobs/7634998003",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.644998"
+        "scraped_at": "2026-04-08T19:11:44.644998",
+        "ai_summary": "Finance Graduate at Xapo Bank. Tags: communication, accounting, erp, netsuite, leadership."
     },
     {
         "id": "nomads-8106050460434316460",
@@ -1446,11 +1417,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://smgstudio.applytojob.com/apply/Fy3HjsX6DW/VFX-Artist-For-Unity-MID-new-For-2026",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645006"
+        "scraped_at": "2026-04-08T19:11:44.645006",
+        "ai_summary": "VFX Artist for Unity (MID+) (new for 2026) at SMG Studio. Tags: animation, communication, unity, artist."
     },
     {
         "id": "nomads-6472672716514195475",
@@ -1463,11 +1435,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.greenhouse.io/reddit/jobs/7669372",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645012"
+        "scraped_at": "2026-04-08T19:11:44.645012",
+        "ai_summary": "Community Manager - French speaker at Reddit. Tags: community manager, moderator."
     },
     {
         "id": "nomads--1619745102616764171",
@@ -1480,11 +1453,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://screenrant.applytojob.com/apply/Pzx68qwqDl/Classic-TV-Journalist",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645022"
+        "scraped_at": "2026-04-08T19:11:44.645022",
+        "ai_summary": "Classic TV Journalist at screenrant. Tags: journalism, entertainment."
     },
     {
         "id": "nomads--4891286007972908223",
@@ -1500,11 +1474,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/MissionWired/82042072-8de1-490e-ab13-3f0a9cdf94a1",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645030"
+        "scraped_at": "2026-04-08T19:11:44.645030",
+        "ai_summary": "Email Production Freelancer at MissionWired. Tags: advertising, html, front end, social media, css."
     },
     {
         "id": "nomads--7763844704360266063",
@@ -1518,11 +1493,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://screenrant.applytojob.com/apply/51PcFy6frE/Movie-And-TV-News-Contributor",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645040"
+        "scraped_at": "2026-04-08T19:11:44.645040",
+        "ai_summary": "Movie and TV News Contributor at screenrant. Tags: journalism, entertainment, editing."
     },
     {
         "id": "nomads--6027865024462852440",
@@ -1538,11 +1514,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.greenhouse.io/upwork/jobs/5760278003",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645047"
+        "scraped_at": "2026-04-08T19:11:44.645047",
+        "ai_summary": "Senior/Lead Backend Engineer at Upwork. Tags: aws, graphql, security, java, engineer."
     },
     {
         "id": "nomads--1315216614789124455",
@@ -1558,11 +1535,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.greenhouse.io/typeform/jobs/7777810",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645057"
+        "scraped_at": "2026-04-08T19:11:44.645057",
+        "ai_summary": "Senior People Operations Partner at Typeform. Tags: payroll, communication, people operations, operations, hris."
     },
     {
         "id": "nomads-53084439594028967",
@@ -1577,11 +1555,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jsco.re/hb5rm",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645065"
+        "scraped_at": "2026-04-08T19:11:44.645065",
+        "ai_summary": "Virtual Webmaster Intern at Finalsite. Tags: web design, seo, communication, user experience."
     },
     {
         "id": "nomads--7724164114091104803",
@@ -1597,11 +1576,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/padsplit/9e6b4c86-16bb-4cf3-8ded-87d3d10b047a",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645072"
+        "scraped_at": "2026-04-08T19:11:44.645072",
+        "ai_summary": "Host Activations Agent at PadSplit. Tags: communication, onboarding, energy, salesforce, operations."
     },
     {
         "id": "nomads-3138314341247698926",
@@ -1617,11 +1597,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.ashbyhq.com/kraken.com/5f738202-cbc7-4a11-aa68-1f8fb4319701",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645079"
+        "scraped_at": "2026-04-08T19:11:44.645079",
+        "ai_summary": "Senior Data Analyst - People Analytics Partner at Kraken. Tags: data analyst, analyst, analytics, workday, python."
     },
     {
         "id": "nomads--7775777437173235808",
@@ -1637,11 +1618,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.smartrecruiters.com/iSpaceInc/744000035037735-sr-fullstack-developer",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645087"
+        "scraped_at": "2026-04-08T19:11:44.645087",
+        "ai_summary": "Sr. Fullstack Developer at iSpace, Inc.. Tags: react, sql, front end, nodejs, javascript."
     },
     {
         "id": "nomads-5490770847970579413",
@@ -1656,11 +1638,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.greenhouse.io/gitlab/jobs/8486219002",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645094"
+        "scraped_at": "2026-04-08T19:11:44.645094",
+        "ai_summary": "Talent Acquisition Sourcer - Sales at GitLab. Tags: communication, talent acquisition, recruiting, sourcing."
     },
     {
         "id": "nomads--4304528456787871160",
@@ -1676,11 +1659,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.lever.co/zencore/abf5abec-66fb-4356-85b0-ae07b59fe695",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645101"
+        "scraped_at": "2026-04-08T19:11:44.645101",
+        "ai_summary": "Software Engineer at Zencore. Tags: aws, engineer, software engineering, python, cloud."
     },
     {
         "id": "nomads--7831635337536235777",
@@ -1696,11 +1680,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.greenhouse.io/muckrack/jobs/8491905002",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645109"
+        "scraped_at": "2026-04-08T19:11:44.645109",
+        "ai_summary": "Video Editor at Muck Rack. Tags: editing, animation, video editing, publishing, motion graphics."
     },
     {
         "id": "nomads-2562761573906691476",
@@ -1716,11 +1701,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.smartrecruiters.com/BlackbirdCollective/743999742043089-ruby-developer-remote",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645116"
+        "scraped_at": "2026-04-08T19:11:44.645116",
+        "ai_summary": "Ruby Developer - Remote at Blackbird Collective. Tags: sql, ruby, css, nosql, javascript."
     },
     {
         "id": "nomads--4399798047906359792",
@@ -1735,11 +1721,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.greenhouse.io/lokainc/jobs/5036077007",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645126"
+        "scraped_at": "2026-04-08T19:11:44.645126",
+        "ai_summary": "Events Coordinator (Temporary Maternity Cover) at Loka, Inc. Tags: logistics, operations, communication, coordinator."
     },
     {
         "id": "nomads-866687160101589915",
@@ -1753,11 +1740,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://edynamiclearning.applytojob.com/apply/qE6hWRAQ24/Freelance-Writer-For-Computer-Science-Course",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645134"
+        "scraped_at": "2026-04-08T19:11:44.645134",
+        "ai_summary": "Writer for Computer Science Course at eDynamic Learning. Tags: computer science, curriculum, science."
     },
     {
         "id": "nomads-2248850945998966634",
@@ -1773,11 +1761,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.greenhouse.io/newsela/jobs/7411036",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645141"
+        "scraped_at": "2026-04-08T19:11:44.645141",
+        "ai_summary": "Salesforce Administrator at Newsela. Tags: sales enablement, salesforce administrator, salesforce, customer experience, cloud."
     },
     {
         "id": "nomads--8048093229094306458",
@@ -1793,11 +1782,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.greenhouse.io/gitlab/jobs/8486224002",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645150"
+        "scraped_at": "2026-04-08T19:11:44.645150",
+        "ai_summary": "Recruiter - GTM at GitLab. Tags: communication, partnerships, talent acquisition, recruiting, sourcing."
     },
     {
         "id": "nomads--8426403426589765458",
@@ -1812,11 +1802,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.greenhouse.io/themotleyfool/jobs/5088822007",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645157"
+        "scraped_at": "2026-04-08T19:11:44.645157",
+        "ai_summary": "Contract AI Investing Content Writer at The Motley Fool. Tags: journalism, publishing, content writing, editing."
     },
     {
         "id": "nomads--5875532342446231935",
@@ -1830,11 +1821,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://jobs.ashbyhq.com/parity/058e8560-8e9a-4d75-b48d-b81f510caa39?locationId=63e4f47c-266d-4c15-a75b-6acdf2853b61",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645163"
+        "scraped_at": "2026-04-08T19:11:44.645163",
+        "ai_summary": "Security Engineer at Parity. Tags: tech, security, engineer."
     },
     {
         "id": "nomads-2390348134826280671",
@@ -1848,49 +1840,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://cogstate.applytojob.com/apply/UdB0J8cywx/Consulting-PsychologistNeurologistPsychiatrist-Dutch-Fluency",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645171"
-    },
-    {
-        "id": "nomads--6376400741414455413",
-        "title": "Consulting Psychologist/Neurologist/Psychiatrist - Korean Fluency",
-        "company": "Cogstate",
-        "description": [
-            "neuroscience",
-            "psychology",
-            "monitoring",
-            "clinical research"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://cogstate.applytojob.com/apply/d2DAEFrswI/Consulting-PsychologistNeurologistPsychiatrist-Korean-Fluency",
-        "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645180"
-    },
-    {
-        "id": "nomads-2016452005720491753",
-        "title": "Consulting Psychologist/Neurologist/Psychiatrist - Slovene Fluency",
-        "company": "Cogstate",
-        "description": [
-            "neuroscience",
-            "psychology",
-            "monitoring",
-            "clinical research"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://cogstate.applytojob.com/apply/43Ef37bC1S/Consulting-PsychologistNeurologistPsychiatrist-Slovene-Fluency",
-        "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645189"
+        "scraped_at": "2026-04-08T19:11:44.645171",
+        "ai_summary": "Consulting Psychologist/Neurologist/Psychiatrist - Dutch Fluency at Cogstate. Tags: neuroscience, psychology, clinical research."
     },
     {
         "id": "nomads-7043270384913360713",
@@ -1905,30 +1860,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://job-boards.greenhouse.io/typeform/jobs/7663042",
         "source": "working_nomads",
-        "scraped_at": "2026-04-08T19:11:44.645198"
-    },
-    {
-        "id": "wwr-contra",
-        "title": "Content Creator | Contra Labs Network",
-        "company": "Contra",
-        "description": [
-            "contract",
-            "featured",
-            "anywhere in the world",
-            "top 100"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://weworkremotely.com/company/contra",
-        "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.755624"
+        "scraped_at": "2026-04-08T19:11:44.645198",
+        "ai_summary": "Senior Total Rewards Consultant at Typeform. Tags: analytics, strategy, communication, leadership."
     },
     {
         "id": "wwr-contra",
@@ -1943,11 +1880,32 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/contra",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.755713"
+        "scraped_at": "2026-04-05T05:24:06.755713",
+        "ai_summary": "Graphic Designer | Contra Labs Network at Contra. Tags: contract, featured, anywhere in the world, top 100."
+    },
+    {
+        "id": "wwr-contra",
+        "title": "Graphic Designer | Contra Labs Network",
+        "company": "Contra",
+        "description": [
+            "contract",
+            "featured",
+            "anywhere in the world",
+            "top 100"
+        ],
+        "salary": {
+            "min": null,
+            "max": null,
+            "currency": "USD"
+        },
+        "apply_link": "https://weworkremotely.com/company/contra",
+        "source": "wwr",
+        "scraped_at": "2026-04-05T05:24:06.755713",
+        "ai_summary": "Graphic Designer | Contra Labs Network at Contra. Tags: contract, featured, anywhere in the world, top 100."
     },
     {
         "id": "wwr-eduopinions",
@@ -1961,30 +1919,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/eduopinions",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.755786"
-    },
-    {
-        "id": "wwr-contra",
-        "title": "Product Designer | Contra Labs Network",
-        "company": "Contra",
-        "description": [
-            "contract",
-            "featured",
-            "anywhere in the world",
-            "top 100"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://weworkremotely.com/company/contra",
-        "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.755857"
+        "scraped_at": "2026-04-05T05:24:06.755786",
+        "ai_summary": "Student Representatives at EDUopinions. Tags: contract, featured, anywhere in the world."
     },
     {
         "id": "wwr-ae-virtual-class-s-a",
@@ -1998,30 +1938,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/ae-virtual-class-s-a",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.755928"
-    },
-    {
-        "id": "wwr-contra",
-        "title": "Brand Designer | Contra Labs Network",
-        "company": "Contra",
-        "description": [
-            "contract",
-            "featured",
-            "anywhere in the world",
-            "top 100"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://weworkremotely.com/company/contra",
-        "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.755997"
+        "scraped_at": "2026-04-05T05:24:06.755928",
+        "ai_summary": "Native language editors at AE Virtual Class S.A. Tags: contract, featured, anywhere in the world."
     },
     {
         "id": "wwr-prowritersites",
@@ -2035,49 +1957,52 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/prowritersites",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.756064"
+        "scraped_at": "2026-04-05T05:24:06.756064",
+        "ai_summary": "Freelance Writer at ProWriterSites. Tags: contract, featured, anywhere in the world."
     },
     {
         "id": "wwr-toptal",
-        "title": "Multilingual Audio Transcription Specialist (Film Dialogue)",
-        "company": "Toptal",
-        "description": [
-            "contract",
-            "featured",
-            "anywhere in the world",
-            "top 100"
-        ],
-        "salary": {
-            "min": null,
-            "max": null,
-            "currency": null
-        },
-        "apply_link": "https://weworkremotely.com/company/toptal",
-        "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.756136"
-    },
-    {
-        "id": "wwr-toptal",
-        "title": "Quality Assurance Engineer",
+        "title": "Financially Literate Individual for Audio Transcription",
         "company": "Toptal",
         "description": [
             "contract",
             "featured",
             "top 100",
-            "\ud83c\udde6\ud83c\uddea united arab emirates"
+            "\ud83c\uddfa\ud83c\uddf8 united states of america"
         ],
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/toptal",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.756530"
+        "scraped_at": "2026-04-05T05:24:06.757253",
+        "ai_summary": "Financially Literate Individual for Audio Transcription at Toptal. Tags: contract, featured, top 100, \ud83c\uddfa\ud83c\uddf8 united states of america."
+    },
+    {
+        "id": "wwr-toptal",
+        "title": "Financially Literate Individual for Audio Transcription",
+        "company": "Toptal",
+        "description": [
+            "contract",
+            "featured",
+            "top 100",
+            "\ud83c\uddfa\ud83c\uddf8 united states of america"
+        ],
+        "salary": {
+            "min": null,
+            "max": null,
+            "currency": "USD"
+        },
+        "apply_link": "https://weworkremotely.com/company/toptal",
+        "source": "wwr",
+        "scraped_at": "2026-04-05T05:24:06.757253",
+        "ai_summary": "Financially Literate Individual for Audio Transcription at Toptal. Tags: contract, featured, top 100, \ud83c\uddfa\ud83c\uddf8 united states of america."
     },
     {
         "id": "wwr-we-work-remotely",
@@ -2093,15 +2018,16 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/we-work-remotely",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.756657"
+        "scraped_at": "2026-04-05T05:24:06.756657",
+        "ai_summary": "Digital Analytics Engineer (GA4 / GTM) at We Work Remotely. Tags: pro, contract, anywhere in the world, featured, top 100."
     },
     {
         "id": "wwr-report-owl-llc",
-        "title": "Inside Sales Contractor",
+        "title": "Remote Inside Sales",
         "company": "Report Owl LLC",
         "description": [
             "contract",
@@ -2111,11 +2037,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/report-owl-llc",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.756747"
+        "scraped_at": "2026-04-05T05:24:06.757169",
+        "ai_summary": "Remote Inside Sales at Report Owl LLC. Tags: contract, featured, anywhere in the world."
     },
     {
         "id": "wwr-remote-talent-cloud",
@@ -2129,11 +2056,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/remote-talent-cloud",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.756826"
+        "scraped_at": "2026-04-05T05:24:06.756826",
+        "ai_summary": "Remote Customer Support - $20/hr - United States at Remote Talent Cloud. Tags: contract, featured, anywhere in the world."
     },
     {
         "id": "wwr-nogigiddy",
@@ -2148,11 +2076,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/nogigiddy",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.756906"
+        "scraped_at": "2026-04-05T05:24:06.756906",
+        "ai_summary": "Remote Data Entry Clerk at NoGigiddy. Tags: contract, featured, anywhere in the world, top 100."
     },
     {
         "id": "wwr-helix-recruit",
@@ -2161,17 +2090,17 @@
         "description": [
             "contract",
             "featured",
-            "anywhere in the world",
-            "$100,000 or more usd"
+            "anywhere in the world"
         ],
         "salary": {
-            "min": "100,000",
+            "min": 100000.0,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/helix-recruit",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.757077"
+        "scraped_at": "2026-04-05T05:24:06.757077",
+        "ai_summary": "AI Trainer (Multiple Roles) | $50-$200/hr at Helix Recruit. Tags: contract, featured, anywhere in the world."
     },
     {
         "id": "wwr-report-owl-llc",
@@ -2185,11 +2114,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/report-owl-llc",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.757169"
+        "scraped_at": "2026-04-05T05:24:06.757169",
+        "ai_summary": "Remote Inside Sales at Report Owl LLC. Tags: contract, featured, anywhere in the world."
     },
     {
         "id": "wwr-toptal",
@@ -2204,11 +2134,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/toptal",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.757253"
+        "scraped_at": "2026-04-05T05:24:06.757253",
+        "ai_summary": "Financially Literate Individual for Audio Transcription at Toptal. Tags: contract, featured, top 100, \ud83c\uddfa\ud83c\uddf8 united states of america."
     },
     {
         "id": "wwr-dataannotation-tech",
@@ -2224,11 +2155,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/dataannotation-tech",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.757337"
+        "scraped_at": "2026-04-05T05:24:06.757337",
+        "ai_summary": "FT/PT Remote AI Prompt Engineering & Evaluation - Will Train at DataAnnotation.tech. Tags: contract, emea only, featured, north america only, asia only."
     },
     {
         "id": "wwr-accelerate-change",
@@ -2241,11 +2173,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/accelerate-change",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.757423"
+        "scraped_at": "2026-04-05T05:24:06.757423",
+        "ai_summary": "Development Operations Support Contractor (Freelance, Remote) at Accelerate Change. Tags: contract, anywhere in the world."
     },
     {
         "id": "wwr-storetasker",
@@ -2258,11 +2191,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/storetasker",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.757547"
+        "scraped_at": "2026-04-05T05:24:06.757547",
+        "ai_summary": "Senior Shopify Developer (Remote + Flexible) at Storetasker. Tags: contract, anywhere in the world."
     },
     {
         "id": "wwr-teamflect",
@@ -2275,11 +2209,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/teamflect",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.757634"
+        "scraped_at": "2026-04-05T05:24:06.757634",
+        "ai_summary": "Growth Marketing Lead at Teamflect. Tags: contract, anywhere in the world."
     },
     {
         "id": "wwr-alcohol-free-lifestyle",
@@ -2287,17 +2222,17 @@
         "company": "Alcohol-Free Lifestyle",
         "description": [
             "contract",
-            "anywhere in the world",
-            "$75,000 - $99,999 usd"
+            "anywhere in the world"
         ],
         "salary": {
-            "min": "75,000",
-            "max": "99,999",
-            "currency": null
+            "min": 75000.0,
+            "max": 99999.0,
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/alcohol-free-lifestyle",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.757764"
+        "scraped_at": "2026-04-05T05:24:06.757764",
+        "ai_summary": "Revenue Operations Coordinator at Alcohol-Free Lifestyle. Tags: contract, anywhere in the world."
     },
     {
         "id": "wwr-https-howtoacademy-com",
@@ -2310,11 +2245,12 @@
         "salary": {
             "min": null,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/https-howtoacademy-com",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.757860"
+        "scraped_at": "2026-04-05T05:24:06.757860",
+        "ai_summary": "PAID SOCIAL & DIGITAL ADVERTISING MANAGER (U.S.) Contract / Retainer Role at https://howtoacademy.com/. Tags: contract, \ud83c\uddfa\ud83c\uddf8 united states of america."
     },
     {
         "id": "wwr-maverick-trading",
@@ -2323,17 +2259,17 @@
         "description": [
             "contract",
             "anywhere in the world",
-            "pro",
-            "$75,000 - $99,999 usd"
+            "pro"
         ],
         "salary": {
-            "min": "75,000",
-            "max": "99,999",
-            "currency": null
+            "min": 75000.0,
+            "max": 99999.0,
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/maverick-trading",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.757956"
+        "scraped_at": "2026-04-05T05:24:06.757956",
+        "ai_summary": "Stock & Options Trader \u2013 Trade Firm Capital (Remote) at Maverick Trading. Tags: contract, anywhere in the world, pro."
     },
     {
         "id": "wwr-sanctuary-computer",
@@ -2341,17 +2277,17 @@
         "company": "Sanctuary Computer",
         "description": [
             "contract",
-            "anywhere in the world",
-            "$100,000 or more usd"
+            "anywhere in the world"
         ],
         "salary": {
-            "min": "100,000",
+            "min": 100000.0,
             "max": null,
-            "currency": null
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/sanctuary-computer",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.758052"
+        "scraped_at": "2026-04-05T05:24:06.758052",
+        "ai_summary": "Senior Frontend Developer at Sanctuary Computer. Tags: contract, anywhere in the world."
     },
     {
         "id": "wwr-onepilot",
@@ -2359,16 +2295,16 @@
         "company": "Onepilot",
         "description": [
             "contract",
-            "anywhere in the world",
-            "$25,000 - $48,999 usd"
+            "anywhere in the world"
         ],
         "salary": {
-            "min": "25,000",
-            "max": "48,999",
-            "currency": null
+            "min": 25000.0,
+            "max": 48999.0,
+            "currency": "USD"
         },
         "apply_link": "https://weworkremotely.com/company/onepilot",
         "source": "wwr",
-        "scraped_at": "2026-04-05T05:24:06.758145"
+        "scraped_at": "2026-04-05T05:24:06.758145",
+        "ai_summary": "Customer service representative (US based) at Onepilot. Tags: contract, anywhere in the world."
     }
 ]

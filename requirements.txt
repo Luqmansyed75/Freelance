@@ -7,3 +7,14 @@ langchain-core
 google-api-python-client
 google-auth
 
+# FastAPI Backend
+fastapi
+uvicorn
+sqlalchemy
+alembic
+pydantic-settings
+python-jose
+passlib
+python-multipart
+bcrypt
+cryptography

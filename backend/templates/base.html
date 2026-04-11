@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="{% block meta_description %}FreelanceMatch — AI-powered freelance job matcher that finds remote roles tailored to your exact skills.{% endblock %}" />
+  <title>{% block title %}FreelanceMatch{% endblock %} | Find Remote Jobs by Skills</title>
+
+  <!-- Preconnect for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="/static/css/main.css" />
+
+  {% block extra_head %}{% endblock %}
+</head>
+<body>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="navbar-inner">
+
+    <!-- Brand -->
+    <a href="/" class="navbar-brand" aria-label="FreelanceMatch home">
+      <div class="brand-icon">⚡</div>
+      <span class="brand-name">FreelanceMatch</span>
+    </a>
+
+    <!-- Desktop Links -->
+    <div class="navbar-links" id="navbar-links" role="menubar">
+      <a href="/"             class="nav-link" data-path="/"             role="menuitem">Home</a>
+      <a href="/dashboard"    class="nav-link" data-path="/dashboard"    role="menuitem">Find Jobs</a>
+      <a href="/applications" class="nav-link" data-path="/applications" role="menuitem">My Applications</a>
+    </div>
+
+    <!-- Actions -->
+    <div class="navbar-actions">
+      {% if user %}
+        <div class="user-badge">
+          <div class="user-avatar">{{ user.email[0].upper() }}</div>
+          <span>{{ user.email.split('@')[0] }}</span>
+        </div>
+        <a href="/api/v1/auth/logout" class="btn btn-ghost btn-sm">Sign Out</a>
+      {% else %}
+        <a href="/login"  class="btn btn-ghost btn-sm">Log In</a>
+        <a href="/signup" class="btn btn-primary btn-sm">Get Started</a>
+      {% endif %}
+    </div>
+
+    <!-- Mobile Toggle -->
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+</nav>
+<!-- ================================================== -->
+
+<!-- Page Content -->
+<div class="page-wrapper">
+  {% block content %}{% endblock %}
+</div>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container">
+    <p>
+      &copy; 2025 <strong>FreelanceMatch</strong> &mdash;
+      AI-powered remote job matching &nbsp;|&nbsp;
+      <a href="/docs">API Docs</a>
+    </p>
+  </div>
+</footer>
+<!-- ================================================== -->
+
+<!-- Main JS -->
+<script src="/static/js/main.js" defer></script>
+{% block extra_scripts %}{% endblock %}
+
+</body>
+</html>

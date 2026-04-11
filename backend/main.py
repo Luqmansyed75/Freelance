@@ -11,10 +11,13 @@ import os
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
 
 from backend.db.base import Base  # noqa: F401  — registers all models
 from backend.db.engine import engine, SessionLocal
 from backend.routers import auth, jobs, applications
+from backend.routers import pages
 from backend.crud.job import upsert_jobs_from_json
 
 # ── Logging ──
@@ -23,6 +26,11 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
 )
 logger = logging.getLogger("backend")
+
+# ── Base directories ──
+BASE_DIR = os.path.dirname(__file__)
+STATIC_DIR = os.path.join(BASE_DIR, "static")
+TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
 
 # ── FastAPI App ──
 app = FastAPI(
@@ -37,20 +45,27 @@ app = FastAPI(
     redoc_url="/redoc",
 )
 
-# ── CORS Middleware (allow Streamlit and local frontends) ──
+# ── CORS Middleware ──
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Tighten in production
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# ── Include Routers ──
+# ── Static Files ──
+os.makedirs(STATIC_DIR, exist_ok=True)
+app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
+
+# ── Include API Routers ──
 API_PREFIX = "/api/v1"
 app.include_router(auth.router, prefix=API_PREFIX)
 app.include_router(jobs.router, prefix=API_PREFIX)
 app.include_router(applications.router, prefix=API_PREFIX)
+
+# ── Include Page Routers (HTML) ──
+app.include_router(pages.router)
 
 
 # ── Startup Event ──
@@ -80,16 +95,6 @@ def on_startup():
 
 
 # ── Health Check ──
-@app.get("/", tags=["Health"])
-def health_check():
-    """Root health-check endpoint."""
-    return {
-        "status": "healthy",
-        "service": "Freelance Job Matcher API",
-        "version": "1.0.0",
-    }
-
-
 @app.get("/health", tags=["Health"])
 def health():
     """Detailed health check."""

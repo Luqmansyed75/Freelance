@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+
+{% block title %}Sign Up{% endblock %}
+{% block meta_description %}Create your FreelanceMatch account and start discovering remote jobs matched to your skills.{% endblock %}
+
+{% block content %}
+<div class="auth-page">
+
+  <div class="hero-bg-orb orb-1" style="opacity:0.4"></div>
+  <div class="hero-bg-orb orb-2" style="opacity:0.3"></div>
+
+  <div class="auth-card">
+
+    <!-- Logo -->
+    <div class="auth-logo">
+      <a href="/" style="text-decoration:none; display:inline-flex; align-items:center; gap:10px;">
+        <div class="brand-icon">⚡</div>
+        <span class="brand-name">FreelanceMatch</span>
+      </a>
+    </div>
+
+    <h1 class="auth-title">Create Account</h1>
+    <p class="auth-subtitle">Find remote jobs that match your exact skills</p>
+
+    <!-- Error alert -->
+    {% if error %}
+    <div class="alert alert-error" role="alert">
+      ⚠️ {{ error }}
+    </div>
+    {% endif %}
+
+    <!-- Signup Form -->
+    <form method="POST" action="/api/v1/auth/register-page" novalidate id="signup-form">
+
+      <div class="form-group">
+        <label class="form-label" for="email">Email Address</label>
+        <div class="form-input-wrap">
+          <span class="form-icon">✉️</span>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="form-input"
+            placeholder="you@example.com"
+            autocomplete="email"
+            required
+            autofocus
+          />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="password">Password <span style="color:var(--text-muted); font-weight:400">(min. 8 characters)</span></label>
+        <div class="form-input-wrap">
+          <span class="form-icon">🔒</span>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            class="form-input"
+            placeholder="Create a strong password"
+            autocomplete="new-password"
+            minlength="8"
+            required
+          />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="confirm_password">Confirm Password</label>
+        <div class="form-input-wrap">
+          <span class="form-icon">✅</span>
+          <input
+            type="password"
+            id="confirm_password"
+            name="confirm_password"
+            class="form-input"
+            placeholder="Repeat your password"
+            autocomplete="new-password"
+            required
+          />
+        </div>
+        <div id="pw-match-msg" style="font-size:0.78rem; margin-top:6px; height:16px;"></div>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-block" id="signup-submit" style="margin-top:4px;">
+        🚀 Create My Account
+      </button>
+
+    </form>
+
+    <div class="auth-divider">already have an account?</div>
+
+    <a href="/login" class="btn btn-ghost btn-block">
+      Sign In Instead
+    </a>
+
+    <div class="auth-footer-link">
+      By signing up you agree to use this tool responsibly. 🙏
+    </div>
+
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+// Live password match feedback
+const pw  = document.getElementById('password');
+const pw2 = document.getElementById('confirm_password');
+const msg = document.getElementById('pw-match-msg');
+
+function checkMatch() {
+  if (!pw2.value) { msg.textContent = ''; return; }
+  if (pw.value === pw2.value) {
+    msg.textContent = '✅ Passwords match';
+    msg.style.color = '#6ee7b7';
+  } else {
+    msg.textContent = '❌ Passwords do not match';
+    msg.style.color = '#fca5a5';
+  }
+}
+
+pw.addEventListener('input', checkMatch);
+pw2.addEventListener('input', checkMatch);
+
+// Loading state on submit
+document.getElementById('signup-form').addEventListener('submit', function(e) {
+  if (pw.value !== pw2.value) {
+    e.preventDefault();
+    msg.textContent = '❌ Passwords do not match';
+    msg.style.color = '#fca5a5';
+    return;
+  }
+  const btn = document.getElementById('signup-submit');
+  setTimeout(() => {
+    btn.disabled = true;
+    btn.textContent = 'Creating account…';
+  }, 0);
+});
+</script>
+{% endblock %}

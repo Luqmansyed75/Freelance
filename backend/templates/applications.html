@@ -1,0 +1,209 @@
+{% extends "base.html" %}
+
+{% block title %}My Applications — CRM{% endblock %}
+{% block meta_description %}Track your job applications, update statuses, and manage your freelance job pipeline.{% endblock %}
+
+{% block content %}
+
+<!-- ============== PAGE HEADER ============== -->
+<div class="dashboard-header">
+  <div class="container">
+    <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:16px; flex-wrap:wrap;">
+      <div>
+        <h1 style="font-size:1.8rem; font-weight:800; margin-bottom:4px;">
+          My Applications 📂
+        </h1>
+        <p style="color:var(--text-secondary); font-size:0.9rem;">
+          Track and manage every job you've saved or applied to.
+        </p>
+      </div>
+      <a href="/dashboard" class="btn btn-primary btn-sm" style="flex-shrink:0; margin-top:6px;">
+        🔍 Find More Jobs
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ============== STATS BAR ============== -->
+<div style="border-bottom:1px solid var(--border); padding:20px 0;">
+  <div class="container">
+    <div style="display:flex; gap:24px; flex-wrap:wrap;">
+
+      {% set status_counts = {'saved': 0, 'applied': 0, 'interview': 0, 'offered': 0, 'rejected': 0} %}
+      {% for app in applications %}
+        {% if app.status in status_counts %}
+          {% set _ = status_counts.update({app.status: status_counts[app.status] + 1}) %}
+        {% endif %}
+      {% endfor %}
+
+      <div style="display:flex; align-items:center; gap:8px;">
+        <span class="badge badge-muted" style="font-size:0.85rem; padding:6px 14px;">
+          📋 Total: <strong>{{ applications|length }}</strong>
+        </span>
+      </div>
+      <div style="display:flex; align-items:center; gap:8px;">
+        <span class="badge badge-accent" style="font-size:0.85rem; padding:6px 14px;">
+          🔖 Saved: <strong>{{ applications | selectattr('status', 'equalto', 'Saved') | list | length }}</strong>
+        </span>
+      </div>
+      <div style="display:flex; align-items:center; gap:8px;">
+        <span class="badge badge-teal" style="font-size:0.85rem; padding:6px 14px;">
+          📤 Applied: <strong>{{ applications | selectattr('status', 'equalto', 'Applied') | list | length }}</strong>
+        </span>
+      </div>
+      <div style="display:flex; align-items:center; gap:8px;">
+        <span class="badge badge-amber" style="font-size:0.85rem; padding:6px 14px;">
+          🎤 Interviewing: <strong>{{ applications | selectattr('status', 'equalto', 'Interviewing') | list | length }}</strong>
+        </span>
+      </div>
+      <div style="display:flex; align-items:center; gap:8px;">
+        <span class="badge badge-green" style="font-size:0.85rem; padding:6px 14px;">
+          🎉 Accepted: <strong>{{ applications | selectattr('status', 'equalto', 'Accepted') | list | length }}</strong>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============== TABLE / EMPTY STATE ============== -->
+<div class="section-sm">
+  <div class="container">
+
+    {% if applications %}
+
+    <div class="apps-table-wrap">
+      <table class="apps-table" id="apps-table">
+        <thead>
+          <tr>
+            <th>Job Title</th>
+            <th>Company</th>
+            <th>Source</th>
+            <th>Status</th>
+            <th>Score</th>
+            <th>Saved On</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="apps-table-body">
+          {% for app in applications %}
+          <tr id="app-row-{{ app.id }}">
+
+            <!-- Job Title -->
+            <td>
+              <div class="job-title-cell" title="{{ app.job.title if app.job else 'Unknown' }}">
+                {{ app.job.title if app.job else 'Job not found' }}
+              </div>
+            </td>
+
+            <!-- Company -->
+            <td style="white-space:nowrap;">
+              {{ app.job.company if app.job else '—' }}
+            </td>
+
+            <!-- Source Badge -->
+            <td>
+              {% if app.job and app.job.source %}
+                {% if 'wwr' in app.job.source or 'remote' in app.job.source %}
+                  <span class="badge badge-teal">WWR</span>
+                {% elif 'nomads' in app.job.source %}
+                  <span class="badge badge-pink">Nomads</span>
+                {% else %}
+                  <span class="badge badge-muted">{{ app.job.source }}</span>
+                {% endif %}
+              {% else %}
+                <span class="badge badge-muted">—</span>
+              {% endif %}
+            </td>
+
+            <!-- Status Selector -->
+            <td>
+              <select
+                class="status-select"
+                data-app-id="{{ app.id }}"
+                id="status-{{ app.id }}"
+                aria-label="Update application status"
+              >
+                {% for s, label in [
+                  ('Saved',        '🔖 Saved'),
+                  ('Applied',      '📤 Applied'),
+                  ('Interviewing', '🎤 Interviewing'),
+                  ('Accepted',     '🎉 Accepted'),
+                  ('Rejected',     '❌ Rejected'),
+                ] %}
+                <option value="{{ s }}" {% if app.status == s %}selected{% endif %}>{{ label }}</option>
+                {% endfor %}
+              </select>
+            </td>
+
+            <!-- Attention Score -->
+            <td style="text-align:center;">
+              {% if app.job and app.job.attention_score %}
+                {% set score = (app.job.attention_score * 100)|int %}
+                <span class="badge {% if score >= 70 %}badge-green{% elif score >= 40 %}badge-amber{% else %}badge-accent{% endif %}">
+                  {{ score }}
+                </span>
+              {% else %}
+                <span style="color:var(--text-muted);">—</span>
+              {% endif %}
+            </td>
+
+            <!-- Created Date -->
+            <td style="white-space:nowrap; color:var(--text-muted); font-size:0.82rem;">
+              {% if app.created_at %}
+                {{ app.created_at.strftime('%d %b %Y') if app.created_at else '—' }}
+              {% else %}
+                —
+              {% endif %}
+            </td>
+
+            <!-- Actions -->
+            <td>
+              <div style="display:flex; gap:8px; align-items:center; flex-wrap:nowrap;">
+                {% if app.job and app.job.apply_link %}
+                <a
+                  href="{{ app.job.apply_link }}"
+                  target="_blank" rel="noopener noreferrer"
+                  class="btn btn-teal btn-sm"
+                  title="Open application page"
+                >
+                  🚀 Apply
+                </a>
+                {% endif %}
+                <button
+                  class="btn btn-danger btn-sm delete-app-btn"
+                  data-app-id="{{ app.id }}"
+                  title="Remove from tracker"
+                  aria-label="Delete application"
+                >
+                  🗑
+                </button>
+              </div>
+            </td>
+
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    {% else %}
+
+    <!-- Empty State -->
+    <div style="text-align:center; padding:80px 24px;">
+      <div style="font-size:64px; margin-bottom:20px; opacity:0.6;">📭</div>
+      <h2 style="font-size:1.4rem; font-weight:700; margin-bottom:10px;">No Applications Yet</h2>
+      <p style="color:var(--text-secondary); font-size:0.95rem; margin-bottom:28px; max-width:400px; margin-left:auto; margin-right:auto;">
+        Head over to the dashboard, find a job you like, and hit
+        <strong>Save</strong> — it'll appear here to track.
+      </p>
+      <a href="/dashboard" class="btn btn-primary btn-lg">
+        🔍 Find Jobs Now
+      </a>
+    </div>
+
+    {% endif %}
+
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+
+{% block title %}Find Jobs — Dashboard{% endblock %}
+{% block meta_description %}Search and filter remote jobs by your exact skill set. Real-time results from multiple job boards.{% endblock %}
+
+{% block content %}
+
+<!-- ============== DASHBOARD HEADER ============== -->
+<div class="dashboard-header">
+  <div class="container">
+    <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:16px; flex-wrap:wrap; margin-bottom:28px;">
+      <div>
+        <h1 style="font-size:1.8rem; font-weight:800; margin-bottom:4px;">
+          Find Remote Jobs 🔍
+        </h1>
+        <p style="color:var(--text-secondary); font-size:0.9rem;">
+          Select your skills below and we'll match you to the best remote opportunities.
+        </p>
+      </div>
+      <a href="/applications" class="btn btn-ghost btn-sm" style="flex-shrink:0; margin-top:6px;">
+        📂 My Applications
+      </a>
+    </div>
+
+    <!-- ── SKILL SELECTOR PANEL ── -->
+    <div class="card-glass" style="padding:24px;">
+
+      <!-- Skill search input -->
+      <div style="margin-bottom:16px;">
+        <div class="skill-search-wrap">
+          <span class="skill-search-icon">🔎</span>
+          <input
+            type="text"
+            id="skill-search"
+            class="form-input"
+            placeholder="Search skills… or type a custom skill and press Enter"
+          />
+        </div>
+      </div>
+
+      <!-- Skill chips grid -->
+      <div id="skills-container" class="skills-container">
+        {% for skill in skill_tags %}
+        <span class="skill-chip" data-skill="{{ skill }}" role="button" tabindex="0" aria-pressed="false">
+          {{ skill }}
+        </span>
+        {% endfor %}
+      </div>
+
+      <div class="divider" style="margin:20px 0 16px;"></div>
+
+      <!-- Selected skills display -->
+      <div style="margin-bottom:12px; font-size:0.8rem; font-weight:600; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.06em;">
+        Selected Skills
+      </div>
+      <div id="selected-skills" class="selected-skills"></div>
+
+      <!-- Search controls -->
+      <div class="search-controls" style="margin-top:16px;">
+        <button id="search-btn" class="btn btn-primary">
+          🔍 Find Jobs
+        </button>
+        <button id="clear-skills" class="btn btn-ghost">
+          ✕ Clear Skills
+        </button>
+
+        <!-- Source filter -->
+        <select id="source-filter" class="filter-select">
+          <option value="">All Sources</option>
+          <option value="remote">We Work Remotely</option>
+          <option value="nomads">Working Nomads</option>
+        </select>
+
+        <!-- Sort order -->
+        <select id="sort-filter" class="filter-select">
+          <option value="score">Sort: Best Match</option>
+          <option value="title">Sort: A–Z Title</option>
+        </select>
+      </div>
+
+    </div><!-- /card-glass -->
+  </div>
+</div>
+
+<!-- ============== RESULTS AREA ============== -->
+<div class="section-sm">
+  <div class="container">
+
+    <!-- Results metadata bar -->
+    <div class="results-meta" style="margin-bottom:16px;">
+      <div class="results-count" id="results-count">
+        <span style="color:var(--text-muted);">Loading jobs…</span>
+      </div>
+      <div id="results-badges" style="display:flex; gap:8px; flex-wrap:wrap;"></div>
+    </div>
+
+    <!-- Jobs grid — populated by JS -->
+    <div id="jobs-grid"></div>
+
+    <!-- Pagination placeholder (future) -->
+    <div id="pagination" style="display:flex; justify-content:center; gap:8px; margin-top:32px;"></div>
+
+  </div>
+</div>
+
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+// Keyboard accessibility for skill chips
+document.querySelectorAll('.skill-chip').forEach(chip => {
+  chip.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      chip.click();
+    }
+  });
+});
+</script>
+{% endblock %}

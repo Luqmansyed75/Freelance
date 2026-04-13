@@ -103,6 +103,66 @@ function initSkillSelector() {
       updateSelectedBox(selectedBox);
     });
   }
+
+  // AI Resume Parsing handling
+  const resumeUpload = document.getElementById('resume-upload');
+  if (resumeUpload) {
+    resumeUpload.addEventListener('change', async (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+      
+      const uploadText = document.getElementById('resume-upload-text');
+      uploadText.textContent = 'Parsing...';
+      
+      const formData = new FormData();
+      formData.append('file', file);
+      
+      try {
+        const token = getCookie('access_token');
+        const res = await fetch(`${API_BASE}/profile/parse-resume`, {
+          method: 'POST',
+          headers: token ? { 'Authorization': `Bearer ${token}` } : {},
+          body: formData
+        });
+        
+        if (!res.ok) {
+          const errData = await res.json().catch(() => null);
+          throw new Error(errData?.detail || 'Failed to parse resume. Check API key or server.');
+        }
+        
+        const data = await res.json();
+        const extractedSkills = data.skills || [];
+        
+        if (extractedSkills.length > 0) {
+          // Clear current skills
+          selectedSkills.clear();
+          chips.forEach(c => c.classList.remove('selected'));
+          
+          // Add new skills
+          extractedSkills.forEach(skill => {
+            selectedSkills.add(skill);
+            const chip = document.querySelector(`.skill-chip[data-skill="${CSS.escape(skill)}"]`);
+            if (chip) chip.classList.add('selected');
+          });
+          
+          updateSelectedBox(selectedBox);
+          showToast(`Extracted ${extractedSkills.length} skills from resume!`, 'success');
+          
+          // Auto search
+          if (typeof runJobSearch === 'function') {
+            runJobSearch();
+          }
+        } else {
+          showToast('No matching skills found in resume.', 'info');
+        }
+      } catch (err) {
+        showToast(err.message, 'error');
+      } finally {
+        uploadText.textContent = 'Upload PDF';
+        resumeUpload.value = ''; // Reset file input
+      }
+    });
+  }
 }
 
 function updateSelectedBox(box) {

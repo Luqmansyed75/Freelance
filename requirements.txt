@@ -21,3 +21,4 @@ bcrypt
 # Templates & Static Files
 jinja2
 aiofiles
+pypdf

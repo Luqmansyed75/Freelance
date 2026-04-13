@@ -60,9 +60,11 @@ app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 
 # ── Include API Routers ──
 API_PREFIX = "/api/v1"
+from backend.routers import auth, jobs, applications, profile
 app.include_router(auth.router, prefix=API_PREFIX)
 app.include_router(jobs.router, prefix=API_PREFIX)
 app.include_router(applications.router, prefix=API_PREFIX)
+app.include_router(profile.router, prefix=f"{API_PREFIX}/profile")
 
 # ── Include Page Routers (HTML) ──
 app.include_router(pages.router)
